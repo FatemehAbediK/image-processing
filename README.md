@@ -1,4 +1,4 @@
-# image-processing-general
+# image-processing
 
 
 #yolov5_m:
