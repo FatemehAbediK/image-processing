@@ -8,10 +8,10 @@ This repository contains several computer vision and image processing projects i
 This notebook demonstrates object detection using the YOLOv5 Medium (YOLOv5m) model. Pretrained COCO weights are used to identify and localize objects in street scenes, including pedestrians, vehicles, bicycles, and motorcycles. The project supports both image and video inputs and allows confidence threshold adjustment and class-specific detection.
 
 
-###2. Brain_tumor_roboflow
+### 2. Brain_tumor_roboflow
 
 This project applies YOLOv7 object detection to identify brain tumors in MRI images. A custom dataset obtained from Roboflow was used for training and evaluation. The notebook covers the complete deep learning pipeline including dataset loading, model training, validation, inference on unseen images, and performance assessment through confusion matrix analysis.
 
 
-#MRI_De_Noising: 
-just to check the different methods for denoising the MRI images to find the best one!
+### 3.MRI_De_Noising: 
+This project implements and compares several image denoising techniques, including Gaussian, bilateral, total variation, wavelet, anisotropic diffusion, non-local means, and BM3D filtering, applied to noisy MRI images. Each method is evaluated using Peak Signal-to-Noise Ratio (PSNR) to measure reconstruction quality against a clean reference image. The results highlight the trade-offs between noise removal and detail preservation, finding the best method for medical imaging
