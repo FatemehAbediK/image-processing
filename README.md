@@ -17,5 +17,9 @@ This project applies YOLOv7 object detection to identify brain tumors in MRI ima
 This project implements and compares several image denoising techniques, including Gaussian, bilateral, total variation, wavelet, anisotropic diffusion, non-local means, and BM3D filtering, applied to noisy MRI images. Each method is evaluated using Peak Signal-to-Noise Ratio (PSNR) to measure reconstruction quality against a clean reference image. The results highlight the trade-offs between noise removal and detail preservation, finding the best method for medical imaging
 
 
-### 4. scikit_image
-This notebook demonstrates a wide range of fundamental image processing techniques using scikit-learn including grayscale conversion, histogram analysis, thresholding, edge detection, filtering, morphological operations, and geometric transformations. It also covers advanced tasks such as image restoration, segmentation (SLIC), contour detection, corner detection, and face detection. The goal is to provide a hands-on understanding of how different algorithms affect image structure, contrast, and feature extraction in real-world computer vision tasks.
+### 4. Scikit_image
+This notebook demonstrates a wide range of fundamental image processing techniques using scikit-image & numpy including grayscale conversion, histogram analysis, thresholding, edge detection, filtering, morphological operations, and geometric transformations. It also covers advanced tasks such as image restoration, segmentation (SLIC), contour detection, corner detection, and face detection. The goal is to provide a hands-on understanding of how different algorithms affect image structure, contrast, and feature extraction in real-world computer vision tasks.
+
+
+### 5. Brain_MRI_Segmentation_Unet
+This project demonstrates a deep learning approach for brain tumor segmentation using the LGG MRI dataset from Kaggle. A U-Net architecture is trained on paired MRI images and masks with real-time data augmentation to improve generalization. The model is evaluated using accuracy and loss metrics, and predictions are visualized to compare ground truth masks with generated segmentation results.
