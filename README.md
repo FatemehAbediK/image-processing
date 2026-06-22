@@ -8,10 +8,9 @@ This repository contains several computer vision and image processing projects i
 This notebook demonstrates object detection using the YOLOv5 Medium (YOLOv5m) model. Pretrained COCO weights are used to identify and localize objects in street scenes, including pedestrians, vehicles, bicycles, and motorcycles. The project supports both image and video inputs and allows confidence threshold adjustment and class-specific detection.
 
 
+###2. Brain_tumor_roboflow
 
-#yolov7_+_roboflow:
-instance segmentation of a dataset of brain tumors from roboflow via yolo v 7 (*it's not working because it should be on a coco traib=nes dataset)
-let's check that out later
+This project applies YOLOv7 object detection to identify brain tumors in MRI images. A custom dataset obtained from Roboflow was used for training and evaluation. The notebook covers the complete deep learning pipeline including dataset loading, model training, validation, inference on unseen images, and performance assessment through confusion matrix analysis.
 
 
 #MRI_De_Noising: 
