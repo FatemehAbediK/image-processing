@@ -23,3 +23,9 @@ This notebook demonstrates a wide range of fundamental image processing techniqu
 
 ### 5. Brain_MRI_Segmentation_Unet
 This project demonstrates a deep learning approach for brain tumor segmentation using the LGG MRI dataset from Kaggle. A U-Net architecture is trained on paired MRI images and masks with real-time data augmentation to improve generalization. The model is evaluated using accuracy and loss metrics, and predictions are visualized to compare ground truth masks with generated segmentation results.
+
+
+### 6. Brain_Tumor_Segmentation_Mask R-CNN
+
+Developed a deep learning pipeline for automatic brain tumor segmentation in MRI images using Mask R-CNN. The model was trained on a custom dataset with polygon-based tumor annotations to perform accurate pixel-level tumor localization and segmentation. The project includes dataset preparation, custom data loading, model training, inference, and visualization of predicted tumor masks, enabling automated identification and analysis of tumor regions in brain MRI scans.
+
